@@ -1,0 +1,65 @@
+########################
+#  OS-specific cruft   #
+########################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Linux
+*~
+
+########################
+#  IDEs & editors      #
+########################
+.idea/              # IntelliJ project settings
+*.iml               # IntelliJ module files
+*.ipr
+*.iws
+.vscode/            # VS Code settings
+*.swp               # Vim swap files
+*.swo
+*.kate-swp
+
+########################
+#  Build outputs       #
+########################
+/target/            # Maven
+/build/             # Gradle
+/out/               # IntelliJ default
+**/classes/         # General byte-code dirs
+**/generated-sources/
+/generated/
+
+########################
+#  Logs & reports      #
+########################
+*.log
+logs/
+/hs_err_pid*
+*.hprof
+coverage-reports/
+
+########################
+#  Dependency caches   #
+########################
+/.mvn/wrapper/maven-wrapper.jar
+/.gradle/
+/.gradle/
+/node_modules/
+
+########################
+#  Miscellaneous       #
+########################
+# Local run or debug configuration
+*.run.xml
+# Secret / local override files
+*.local
+*.env
+.env.*
+
+# If you commit a binary or large file by accident, make sure to add a
+# .gitattributes entry for Git LFS or filter out the history later.
